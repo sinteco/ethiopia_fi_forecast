@@ -48,16 +48,34 @@ Generated data-driven projections for Ethiopia's financial inclusion metrics thr
 - **Scenario Visualization**: [forecast_scenarios.png](reports/figures/forecast_scenarios.png) showing the fan chart of projections.
 - **Result Interpretation**: [forecasting_results.md](reports/forecasting_results.md) analyzing the likelihood of meeting national targets.
 
-## Setup
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Run the dashboard:
-   ```bash
-   streamlit run dashboard/app.py
-   ```
-3. Run tests:
-   ```bash
-   pytest tests/test_pipeline.py
-   ```
+### Task 5: Dashboard Development
+Created an interactive Streamlit-based forecasting system for stakeholders.
+
+**Key Features:**
+- **Overview**: High-level metrics (Access, Usage, P2P/ATM Ratio).
+- **Trends**: Interactive time-series comparison with indicator selection.
+- **Forecasts**: Scenario-based projections (Base/Optimistic/Pessimistic) with NFIS-II target overlays.
+- **Insights**: Consolidated answers to the consortium's core strategic questions.
+
+## Setup & Usage
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the Dashboard
+```bash
+streamlit run dashboard/app.py
+```
+
+### 3. Run Pipeline Scripts (Optional)
+To regenerate data or models:
+- **Enrich Data**: `python3 scripts/enrich_data.py`
+- **Impact Modeling**: `python3 notebooks/task3_impact_modeling.py`
+- **Generate Forecasts**: `python3 notebooks/task4_forecasting.py`
+
+### 4. Run Tests
+```bash
+pytest tests/test_pipeline.py
+```
