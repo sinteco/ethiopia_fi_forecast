@@ -39,6 +39,15 @@ Developed a quantitative framework to simulate how major events shift financial 
 - **Association Matrix**: [impact_association_matrix.csv](data/processed/impact_association_matrix.csv) mapping event magnitudes to indicators.
 - **Methodology Report**: [impact_methodology.md](reports/impact_methodology.md) explaining the S-curve approach and the 0.6 discount factor for Access indicators.
 
+### Task 4: Forecasting Access and Usage
+Generated data-driven projections for Ethiopia's financial inclusion metrics through 2027.
+
+**Key Deliverables:**
+- **Forecasting Notebook**: [task4_forecasting.py](notebooks/task4_forecasting.py) for scenario-based projections.
+- **Forecast Data**: [forecasts_2025_2027.csv](data/processed/forecasts_2025_2027.csv) containing baseline, optimistic, and pessimistic values.
+- **Scenario Visualization**: [forecast_scenarios.png](reports/figures/forecast_scenarios.png) showing the fan chart of projections.
+- **Result Interpretation**: [forecasting_results.md](reports/forecasting_results.md) analyzing the likelihood of meeting national targets.
+
 ## Setup
 1. Install dependencies:
    ```bash

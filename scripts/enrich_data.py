@@ -14,6 +14,7 @@ new_records = [
         'indicator_direction': 'higher_better', 'value_numeric': 35.0, 'value_type': 'percentage', 
         'unit': '%', 'observation_date': '2024-11-29', 'source_name': 'Global Findex 2024', 
         'source_url': 'https://www.worldbank.org/en/publication/globalfindex', 'confidence': 'high',
+        'gender': 'all', 'location': 'national',
         'collected_by': 'Antigravity', 'collection_date': '2025-01-20', 'notes': 'Critical baseline for usage.'
     },
     {
@@ -22,6 +23,7 @@ new_records = [
         'indicator_direction': 'higher_better', 'value_numeric': 10.2, 'value_type': 'rate', 
         'unit': 'per 100k', 'observation_date': '2023-12-31', 'source_name': 'IMF FAS', 
         'source_url': 'https://data.imf.org/?sk=E5DC7BC5-1BC5-4601-9245-565E5C995AC2', 'confidence': 'high',
+        'gender': 'all', 'location': 'national',
         'collected_by': 'Antigravity', 'collection_date': '2025-01-20', 'notes': 'Infrastructure enabler.'
     },
     {
@@ -30,6 +32,7 @@ new_records = [
         'indicator_direction': 'higher_better', 'value_numeric': 42.0, 'value_type': 'percentage', 
         'unit': '%', 'observation_date': '2024-12-31', 'source_name': 'GSMA/ITU', 
         'source_url': 'https://www.gsma.com/mobileeconomy/ethiopia/', 'confidence': 'medium',
+        'gender': 'all', 'location': 'national',
         'collected_by': 'Antigravity', 'collection_date': '2025-01-20', 'notes': 'Proxy for digital potential.'
     },
     # Events
