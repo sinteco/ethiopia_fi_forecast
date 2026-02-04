@@ -31,6 +31,14 @@ Completed a comprehensive analysis of the enriched dataset to understand the dri
 - **Visualizations**: Generated 6+ charts in [reports/figures/](reports/figures/) covering temporal coverage, trajectory, gender gap, and event timelines.
 - **Insights Report**: Consolidated 5+ key insights in [eda_insights.md](reports/eda_insights.md), highlighting the 2021-2024 slowdown paradox and the P2P crossover milestone.
 
+### Task 3: Event Impact Modeling
+Developed a quantitative framework to simulate how major events shift financial inclusion trajectories.
+
+**Key Deliverables:**
+- **Modeling Notebook**: [task3_impact_modeling.py](notebooks/task3_impact_modeling.py) containing the logistic build-up logic and historical validation.
+- **Association Matrix**: [impact_association_matrix.csv](data/processed/impact_association_matrix.csv) mapping event magnitudes to indicators.
+- **Methodology Report**: [impact_methodology.md](reports/impact_methodology.md) explaining the S-curve approach and the 0.6 discount factor for Access indicators.
+
 ## Setup
 1. Install dependencies:
    ```bash
