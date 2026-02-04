@@ -9,6 +9,20 @@ This project provides a forecasting system to predict Ethiopia's progress on fin
 - `tests/`: Unit tests.
 - `.github/workflows/`: CI/CD configuration.
 
+## Tasks Implementation
+
+### Task 1: Data Exploration and Enrichment
+In this task, we explored the `ethiopia_fi_unified_data.csv` dataset and enriched it with additional observations, events, and impact links to improve the forecasting model.
+
+**Key Activities:**
+- **Schema Analysis**: Verified the unified schema and confirmed the presence of `observation`, `event`, and `target` record types.
+- **Data Exploration**: Identified temporal range (2014-2025) and coverage for key indicators like `ACC_OWNERSHIP` and `USG_P2P_COUNT`.
+- **Enrichment**:
+  - Added **3 new observations**: Digital Payment Adoption (2024), Bank Branch Density (IMF), and Smartphone Penetration (GSMA).
+  - Added **1 new event**: NBE Mobile Money Service Provider Directive (2025).
+  - Added **4 new impact links**: Modeled the relationships between launches (Telebirr, M-Pesa) and financial inclusion outcomes.
+- **Documentation**: Detailed all changes in [data_enrichment_log.md](data/processed/data_enrichment_log.md).
+
 ## Setup
 1. Install dependencies:
    ```bash
